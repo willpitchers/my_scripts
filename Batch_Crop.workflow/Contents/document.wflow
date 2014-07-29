@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>247.1</string>
+	<string>381</string>
 	<key>AMApplicationVersion</key>
-	<string>2.1.1</string>
+	<string>2.4</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -25,7 +25,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.1</string>
+				<string>1.1.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>fileNames</key>
@@ -47,16 +51,158 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>fileNames</key>
-					<array/>
+					<array>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__01.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__02.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__03.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__04.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__05.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__06.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__07.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__08.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__09.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__10.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__11.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__12.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__13.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__15.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__17.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/A9_GAL4_x_samW__F__19.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__05.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__07.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__08.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__09.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__10.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__11.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__12.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__13.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__14.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__15.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__16.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__17.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/ct_GAL4_x_samW__F__18.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__01.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__03.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__05.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__06.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__07.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__08.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__09.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__10.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__11.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__12.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__13.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__14.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__15.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__16.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__17.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_cm1_ct6__F__19.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__03.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__04.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__06.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__08.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__09.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__10.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__11.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__12.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__13.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__15.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__17.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__18.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_05_x_ct_OC1_FM1__F__20.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__03.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__04.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__05.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__06.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__07.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__08.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__09.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__10.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__11.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__12.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__13.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__14.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__15.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__16.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_cm1_ct6__F__18.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__03.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__05.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__06.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__07.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__08.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__09.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__10.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__11.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__12.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__13.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__14.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__15.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__16.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_06_x_ct_OC1_FM1__F__18.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__04.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__07.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__08.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__09.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__10.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__11.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__12.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__13.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__14.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__15.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__16.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__17.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__18.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_cm1_ct6__F__19.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__04.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__07.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__10.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__11.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__12.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__13.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__14.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__15.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__16.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__17.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__18.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__19.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NC2_39_x_ct_OC1_FM1__F__20.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/NCcp05_x_ct_OC1_FM1__F__05.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_339c7_x_samW__F__01.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_339cp_x_samW__F__10.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_A9_GAL4__F__04.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_A9_GAL4__F__07.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_A9_GAL4__F__10.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_A9_GAL4__F__13.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_A9_GAL4__F__15.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_A9_GAL4__F__16.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_A9_GAL4__F__17.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_A9_GAL4__F__18.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_A9_GAL4__F__19.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_A9_GAL4__F__20.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_samW__F__01.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_samW__F__02.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_samW__F__03.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_samW__F__04.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_samW__F__05.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_samW__F__07.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_samW__F__09.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_29625_x_samW__F__10.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_33967_x_samW__F__02.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_33967_x_samW__F__03.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_33967_x_samW__F__04.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_33967_x_samW__F__05.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_33967_x_samW__F__06.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_33967_x_samW__F__07.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_33967_x_samW__F__08.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_33967_x_samW__F__09.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_33967_x_samW__F__12.tif</string>
+						<string>/Volumes/WILL_KEY/Will_ct_crosses/missing/RNAi_33967_x_samW__F__14.tif</string>
+					</array>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.SpecifiedFiles</string>
 				<key>CFBundleVersion</key>
-				<string>1.1</string>
+				<string>1.1.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -103,7 +249,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>442.000000:944.000000</string>
+				<string>309.500000:944.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -125,7 +271,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>recurse</key>
@@ -151,14 +301,10 @@
 					<key>recurse</key>
 					<false/>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.GetFolderContents</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -203,9 +349,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>442.000000:706.000000</string>
+				<string>309.500000:706.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -225,7 +371,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.3</string>
+				<string>2.0.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>replaceExisting</key>
@@ -234,8 +384,6 @@
 					<dict>
 						<key>isPathPopUp</key>
 						<true/>
-						<key>selectedVariableUUID</key>
-						<string>8124046C-7E7E-4DBA-9CF9-85B6A2A47FF2</string>
 						<key>variableUUIDsInMenu</key>
 						<array>
 							<string>8124046C-7E7E-4DBA-9CF9-85B6A2A47FF2</string>
@@ -260,16 +408,12 @@
 					<key>replaceExisting</key>
 					<false/>
 					<key>toDirectory</key>
-					<string></string>
+					<string>/Volumes/Old_HD/DeSKToP/IN/Will_ct_crosses/ToLandmark</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.CopyFiles</string>
 				<key>CFBundleVersion</key>
-				<string>1.3</string>
+				<string>2.0.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -279,7 +423,7 @@
 					<string>AMCategoryFilesAndFolders</string>
 				</array>
 				<key>Class Name</key>
-				<string>CopyFilesAction</string>
+				<string>AMCopyFilesAction</string>
 				<key>InputUUID</key>
 				<string>FF038E4C-45C6-414E-8B5F-A27399112201</string>
 				<key>Keywords</key>
@@ -327,9 +471,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>442.000000:606.000000</string>
+				<string>309.500000:606.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Copy Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Copy Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -345,11 +489,15 @@
 					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.0</string>
+				<string>1.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Preview</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>imageType</key>
@@ -361,7 +509,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
@@ -373,14 +521,10 @@
 					<key>imageType</key>
 					<string>TIFF</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Preview</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.ChangeImageType</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -390,7 +534,7 @@
 					<string>AMCategoryPhotos</string>
 				</array>
 				<key>Class Name</key>
-				<string>ChangeImageTypeActionClass</string>
+				<string>AMChangeImageTypeAction</string>
 				<key>InputUUID</key>
 				<string>3EB1B0A1-6E27-4EA4-9A9B-6A0DCC648B6C</string>
 				<key>Keywords</key>
@@ -403,8 +547,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>E16CBA91-5C53-4823-ABBE-8B382BE276D4</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>7A07F238-6A29-4F71-BBA4-FB872777870E</string>
 				<key>UnlocalizedApplications</key>
@@ -430,9 +572,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>442.000000:503.000000</string>
+				<string>309.500000:503.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Change Type of Images.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Change Type of Images.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -448,11 +590,15 @@
 					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.1</string>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Preview</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>cropMethod</key>
@@ -474,7 +620,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
@@ -496,14 +642,10 @@
 					<key>targetWidthPercentagle</key>
 					<string>75</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Preview</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.CropImages</string>
 				<key>CFBundleVersion</key>
-				<string>1.1</string>
+				<string>1.2.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -616,7 +758,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>442.000000:399.000000</string>
+				<string>309.500000:399.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Crop Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -634,11 +776,15 @@
 					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.1</string>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Preview</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>canvasHeight</key>
@@ -654,7 +800,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
@@ -670,14 +816,10 @@
 					<key>scaleImage</key>
 					<true/>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Preview</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.PadImage</string>
 				<key>CFBundleVersion</key>
-				<string>1.1</string>
+				<string>1.2.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -751,9 +893,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>442.000000:186.000000</string>
+				<string>309.500000:186.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Pad Images.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Pad Images.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -761,35 +903,35 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>13A4E780-AFC9-4017-AC94-A5EC57DF075B</key>
+		<key>60ECD92A-82F7-409E-813D-1F7AABEBB958</key>
+		<dict>
+			<key>from</key>
+			<string>5933F184-3B65-4276-A5F2-C67F298A11EE - 5933F184-3B65-4276-A5F2-C67F298A11EE</string>
+			<key>to</key>
+			<string>841378CB-0E37-4E64-A379-C79FABF4C99D - 841378CB-0E37-4E64-A379-C79FABF4C99D</string>
+		</dict>
+		<key>76EB359A-D6B5-4595-8A9A-936ECEF37B14</key>
 		<dict>
 			<key>from</key>
 			<string>841378CB-0E37-4E64-A379-C79FABF4C99D - 841378CB-0E37-4E64-A379-C79FABF4C99D</string>
 			<key>to</key>
 			<string>7A07F238-6A29-4F71-BBA4-FB872777870E - 7A07F238-6A29-4F71-BBA4-FB872777870E</string>
 		</dict>
-		<key>516B340C-3B05-4248-BDF2-531841C521C6</key>
+		<key>AF360562-D1E0-4F27-BE9A-84B15F9442B7</key>
 		<dict>
 			<key>from</key>
 			<string>FEAE569A-9F12-48E9-A52E-F4F62F87E2EC - FEAE569A-9F12-48E9-A52E-F4F62F87E2EC</string>
 			<key>to</key>
 			<string>5933F184-3B65-4276-A5F2-C67F298A11EE - 5933F184-3B65-4276-A5F2-C67F298A11EE</string>
 		</dict>
-		<key>7E55A7E4-6465-403C-AEC8-AE7A366C0FE2</key>
-		<dict>
-			<key>from</key>
-			<string>5933F184-3B65-4276-A5F2-C67F298A11EE - 5933F184-3B65-4276-A5F2-C67F298A11EE</string>
-			<key>to</key>
-			<string>841378CB-0E37-4E64-A379-C79FABF4C99D - 841378CB-0E37-4E64-A379-C79FABF4C99D</string>
-		</dict>
-		<key>D1F5EFFA-B911-41E8-A5E4-7E8003535A13</key>
+		<key>CB4766B5-B130-401B-BFF5-08B8D45A018A</key>
 		<dict>
 			<key>from</key>
 			<string>7A07F238-6A29-4F71-BBA4-FB872777870E - 7A07F238-6A29-4F71-BBA4-FB872777870E</string>
 			<key>to</key>
 			<string>D2214DDE-778E-45C4-A6B9-75D0D4079254 - D2214DDE-778E-45C4-A6B9-75D0D4079254</string>
 		</dict>
-		<key>DB22823F-6DAB-4E42-A3C1-690A86DF7238</key>
+		<key>F382C12B-C29B-421F-9F2F-24F6AAAE1646</key>
 		<dict>
 			<key>from</key>
 			<string>D2214DDE-778E-45C4-A6B9-75D0D4079254 - D2214DDE-778E-45C4-A6B9-75D0D4079254</string>
@@ -879,7 +1021,7 @@
 			<key>name</key>
 			<string>Path_to_Lamdmarking_folder</string>
 			<key>value</key>
-			<string>~/Desktop/MA_Rep1-2_part2</string>
+			<string>/Volumes/Old_HD/DeSKToP/IN/Will_ct_crosses/Landmark</string>
 		</dict>
 	</array>
 	<key>workflowMetaData</key>
