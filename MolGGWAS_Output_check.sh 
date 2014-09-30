@@ -1,0 +1,23 @@
+#!
+# script to find which PC's have missing chunks
+# now also outputs a list of missing files
+
+echo "PC chunk counts" > chunk_count.txt
+
+for j in {1..20}
+        do echo ${j} >> chunk_count.txt
+        ls -1 MAF3/chunk*_PC${j}_fr2_assoc_MAF3.csv | wc -l >> chunk_count.txt
+done
+
+
+echo "Missing_Chunks" > Missing_Chunks.txt
+
+for i in {1..20}
+	do for j in {1..99}
+		do if [ ! -f MAF3/chunk${j}_PC${i}_fr2_assoc_MAF3.csv ]
+			then
+				echo chunk${j}_PC${i}_fr2_assoc_MAF3.csv >> Missing_Chunks.txt
+			fi
+	done
+done
+
