@@ -1,6 +1,22 @@
 
 #######################################################
 
+
+##### Plotting confusion matrices as pretty heatmaps
+myHeatMap <- function( dim, names, data, xLab="Actual", yLab="Predicted" ){
+	myCols <- colorRampPalette(c("#ffffff7f", "#ff00007f", "#00ff007f"), space="rgb")
+	image( 1:dim, 1:dim, data[,dim:1], col=myCols(100), xaxt='n', yaxt='n', xlab=xLab, ylab=yLab )
+	abline(h=0:dim+0.5, col="grey")
+	abline(v=0:dim+0.5, col="grey")
+	box( lwd=1 )
+	text( 1:dim, rep(dim:1, each=dim), sub('^0$', '',data) )
+	axis(1, at=1:dim, labels=names, cex.axis=0.8 )
+	axis(2, at=1:dim, labels=rev(names), cex.axis=0.8, las=1 )
+}
+
+
+
+
 # this function works with the 'pairs' plotting function to add numerical correlation estimates to the plots
 panel.cor <- function(x, y, digits=2) {
 	r <- cor(x, y)
@@ -10,7 +26,9 @@ panel.cor <- function(x, y, digits=2) {
 }
 
 
+# Inverse log function
 invlogit <- function( x ) { 1 / (1 + exp(-x) ) }
+
 
 # geometric mean function
 g_mean <- function( X ) {
