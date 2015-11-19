@@ -88,7 +88,7 @@ interleave <- function(v1, v2) {
 comment(interleave) <- "this function takes 2 vectors (a1, a2..an), (b1, b2..bn) and returns (a1, b1, a2, b2..an, bn)"
 
 
- 
+
 
 #ID's function to count minor alleles - if there are 2 or fewer instances then the locus is a statistical no-go...
 minor.allele.function <- function(x) length(x[x==2])
@@ -135,25 +135,25 @@ PRsq <- function( model ){
 		variable.name <- rep(NA, model.length )
 		partial.Rsq <- rep(NA, model.length )
 		univariate.Model.Rsq <- rep(NA, model.length )
-			
+
 	for (i in 1:model.length){
 		variable.name[i] <- variables[i]
 		drop <- parse( text=variables[i] )
 		new.formula <- as.formula( paste( ".~.-", variables[i], sep=""))
 		new.model <- update(model, new.formula )
 		partial.Rsq[i] <- (var(new.model$resid) - residual.variance)/ var(new.model$resid)
-		
+
 		new.formula.univariate <- as.formula( paste( ".~", variables[i], sep=""))
 		univariate.model <- update(model, new.formula.univariate)
 		univariate.Model.Rsq[i] <- summary(univariate.model)$r.sq
 		}
-	
+
 	R2 <- Rsq( model )
 	adj.R2 <- summary(model)$adj.r
-	
+
 	partials <- data.frame(partial.Rsq, univariate.Model.Rsq )
 	row.names(partials) <- variable.name
-	
+
 	list(FullModelRsquared=R2, FullModelAdjustedR2 = adj.R2, partials=partials	)
 }
 
@@ -177,7 +177,7 @@ shapePRsq <- function( model ){
 		model.length <- length(variables)
 		variable.name <- rep(NA, model.length )
 		partial.Rsq <- rep(NA, model.length )
-			
+
 	for (i in 1:model.length){
 		variable.name[i] <- variables[i]
 		drop <- parse( text=variables[i] )
@@ -191,18 +191,13 @@ shapePRsq <- function( model ){
 
 
 
-
-
-#  Source script for Multivariate functions.
-# Ian Dworkin   
-# Updated October 1st 2011
-
 ####################################
 
-# calculate tangent approximaton for tangent approximates Procrustes Distance (Euclidean Distance) 
+# calculate tangent approximaton for tangent approximates Procrustes Distance (Euclidean Distance)
 # This is just the magnitude of the vector!
-PD <- function(x) { 
-	sqrt(t(x)%*%x)}
+
+PD <- function( x ) {
+				sqrt( t( x ) %*% x )}
 comment(PD) <- c("This just computes the Euclidean Distance (norm) for a vector")
 
 
@@ -214,7 +209,7 @@ comment(PD) <- c("This just computes the Euclidean Distance (norm) for a vector"
 ang.vec <- function(vec1, vec2){
 	vec.cor <- (t(vec1) %*% vec2)/(PD(vec1)*PD(vec2))
 	vec.angle <- acos(vec.cor)*(180/pi)
-	return(c(vector.cor=vec.cor, vec.angle=vec.angle))}	
+	return(c(vector.cor=vec.cor, vec.angle=vec.angle))}
 comment(ang.vec) <- c(" This computes both the vector correlation, and angle, between two vectors.", " to compare to the Pearson correlation coefficient make sure to center and standardize vectors", "DO NOT USE THIS IF VECTORS CAN BE OF ARBITRARY SIGN")
 
 
@@ -224,8 +219,8 @@ comment(ang.vec) <- c(" This computes both the vector correlation, and angle, be
 ang.vec.abs <- function(vec1, vec2){
 	vec.cor <- abs((t(vec1) %*% vec2)/(PD(vec1)*PD(vec2)))
 	vec.angle <- acos(vec.cor)*(180/pi)
-	return(c(vector.cor=vec.cor, vec.angle=vec.angle))}	
-comment(ang.vec) <- c(" This computes both the vector correlation, and angle, between two vectors.", " to compare to the Pearson correlation coefficient make sure to center and standardize vectors", "set it up to compute the absolute values of the vector correlation")
+	return(c(vector.cor=vec.cor, vec.angle=vec.angle))}
+comment(ang.vec.abs) <- c(" This computes both the vector correlation, and angle, between two vectors.", " to compare to the Pearson correlation coefficient make sure to center and standardize vectors", "set it up to compute the absolute values of the vector correlation")
 
 
 
@@ -240,7 +235,7 @@ PLS <- function( M1, M2 ) {
 		 }
 	if ( is.vector(M2) == T ) { p2 <- 1 }
 		else { p2 = dim(M2)[2] }
-	
+
 	n <- dim(M1)[1]
 	sM12 <- svd(var(cbind(M1,M2))[1:p1, (p1+1):(p1+p2)])
 	vM12 <- var(cbind(M1,M2))[1:p1, (p1+1):(p1+p2)]
@@ -265,17 +260,17 @@ comment(PLS) <- "M1 should be a matrix of data. M2 may be a matrix or vector of 
 
 ShapeScore <- function(Beta, Y) {
 	## This computes the "shape score" of Drake and Klingenberg 2008
-	## Beta is the coefficients for each procrustes coordinate from a multivariate multiple regression. 
+	## Beta is the coefficients for each procrustes coordinate from a multivariate multiple regression.
 	## i.e. shape.model.1 <- lm(cbind(Y1, Y2) ~ X1 + X2, data=data.set )
 	## Beta ...   beta.model <- t(coef(shape.model.1)[k,]) # where k is the covariate of focus
-	## 
+	##
 	## Y is the raw procrustes coordinates (Y1, Y2, ...)
 	# Since Klingenberg uses the generalized inverses, we have tested this for the 2p-4 PCs and have gotten identical results.
 	s = Y %*% t(Beta) %*% ((Beta %*% t(Beta))^-0.5)
 	return(shapeScore=s)
 }
 
-comment(ShapeScore) <- c("This computes the 'shape score' of Drake and Klingenberg 2008", 
+comment(ShapeScore) <- c("This computes the 'shape score' of Drake and Klingenberg 2008",
   "Beta is the coefficients for each procrustes coordinate from a multivariate multiple regression. ",
   "i.e. shape.model.1 <- lm(cbind(Y1, Y2) ~ X1 + X2, data=data.set )",
   "Beta ...   beta.model <- t(coef(shape.model.1)[k,]) # where k is the covariate of focus",
@@ -292,7 +287,7 @@ BackTrans <- function( PC_coefs, PC_object, real_dimensions=58 ){
 	if ( class(PC_object) == "prcomp" ){
 		rotation_of_real_dimensions <- PC_object$rotation[, 1:real_dimensions ]
 		} else {
-		rotation_of_real_dimensions <- PC_object[, 1:real_dimensions ]	
+		rotation_of_real_dimensions <- PC_object[, 1:real_dimensions ]
 		}
 	coefs_in_LM_space <- rotation_of_real_dimensions %*% PC_coefs
 	coefs_in_LM_space
@@ -353,4 +348,3 @@ comment(KirkpatrickDimensionality) <- c("This implements Kirkpatrick's (2009) si
 ########################### WHAT STILL NEEDS TO BE IMPLEMENTED
 # PROCRUSTES ANOVA
 # VARIANCE ACCOUNTED FOR VIA PROCRUSTES DISTANCE
-
